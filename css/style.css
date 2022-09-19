@@ -117,10 +117,11 @@ header {
   height: 60px;
 }
 
-nav.menu {
+.menu-list {
   display: flex;
   justify-content: center;
   gap: 23px;
+  list-style-type: none;
 }
 
 .menu-link {
@@ -140,8 +141,19 @@ nav.menu {
 }
 
 
-
-
+.carousel-inner {
+  height: 700px;
+}
+.carousel-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.carousel-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover center;
+}
 
 
 
@@ -167,7 +179,7 @@ main {
   height: 50px;
   border-radius: 50%;
   background-color: #000;
-  margin: 20% 2%;
+  margin: auto 2%;
 }
 
 /* BACKGROUND-WRAPPER (products+advantages)*/
@@ -261,8 +273,8 @@ ol.products-item {
   opacity: 0.7;
   transition: all 1s ease;
 }
-#OVNS-07 {
-  background-image: url(.././assets/image/OVNS-07/OVNS-07.png);
+#OVNS-TIN {
+  background-image: url(.././assets/image/OVNS-TIN/OVNS-TIN.png);
 }
 #OVNS-12 {
   background-image: url(.././assets/image/OVNS-12/OVNS-12.png);
@@ -270,8 +282,8 @@ ol.products-item {
 #OVNS-15 {
   background-image: url(.././assets/image/OVNS-15/OVNS-15.png);
 }
-#OVNS-500 {
-  background-image: url(.././assets/image/OVNS-500/OVNS-500.png);
+#OVNS-L {
+  background-image: url(.././assets/image/OVNS-L/OVNS-L.png);
 }
 #OVNS-MAX {
   background-image: url(.././assets/image/OVNS-MAX/OVNS-MAX.png);
@@ -471,12 +483,11 @@ ol.products-item {
   color: #000;
   letter-spacing: 0;
   text-align: left;
-  padding-left: 11px;
 }
 .selling-text {
   font-family: 'Rubik';
   font-size: 16px;
-  padding: 11px 0 0 11px;
+  padding-top: 11px;
   color: #000;
   letter-spacing: 0;
   line-height: 33px;
