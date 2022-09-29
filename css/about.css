@@ -20,11 +20,11 @@ main {
 
 h1 {
     font-size: 5em;
-    color: blue;
+    color: #000000;
 }
 h2 {
     font-size: 4em;
-    color: blue;
+    color: #000000;
 }
 ul.certificates-list {
     width: 50%;
@@ -32,13 +32,13 @@ ul.certificates-list {
 }
 ul.certificates-list>li {
     font-size: 1.5em;
-    color: blue;
+    color: gray;
     list-style-type: '\2714';
     padding: 10px 0;
 }
 p {
     font-size: 1.5em;
-    color: blue;
+    color: gray;
 }
 
 .production-block {
