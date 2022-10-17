@@ -1,0 +1,37 @@
+.image-item {
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image-item:first-child {
+    background-image: url(../../../assets/image/Alexander/Alexander_11.webp);
+}
+.image-item:nth-child(2) {
+    background-image: url(../../../assets/image/Alexander/Alexander_12.webp);
+}
+.image-item:nth-child(3) {
+    background-image: url(../../../assets/image/Alexander/Alexander_13.webp);
+}
+.image-item:nth-child(4) {
+    background-image: url(../../../assets/image/Alexander/Alexander_14.webp);
+}
+.image-item:nth-child(5) {
+    background-image: url(../../../assets/image/Alexander/Alexander_15.webp);
+}
+.image-item:nth-child(6) {
+    background-image: url(../../../assets/image/Alexander/Alexander_16.webp);
+}
+.image-item:nth-child(7) {
+    background-image: url(../../../assets/image/Alexander/Alexander_17.webp);
+}
+.image-item:nth-child(8) {
+    background-image: url(../../../assets/image/Alexander/Alexander_desc1.webp);
+}
+.image-item:nth-child(9) {
+    background-image: url(../../../assets/image/Alexander/Alexander_desc2.webp);
+}
+
+
+
+

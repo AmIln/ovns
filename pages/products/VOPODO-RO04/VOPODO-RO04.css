@@ -1,0 +1,31 @@
+.image-item {
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-item:first-child {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc1.webp);
+}
+.image-item:nth-child(2) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc2.webp);
+}
+.image-item:nth-child(3) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc3.webp);
+}
+.image-item:nth-child(4) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc4.webp);
+}
+.image-item:nth-child(5) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc5.webp);
+}
+.image-item:nth-child(6) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc6.webp);
+}
+.image-item:nth-child(7) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc7.webp);
+}
+.image-item:nth-child(8) {
+    background-image: url(../../../assets/image/VIPODO-R04/R04_desc8.webp);
+}

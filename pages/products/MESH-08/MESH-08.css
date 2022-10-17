@@ -1,0 +1,25 @@
+.image-item {
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-item:first-child {
+    background-image: url(../../../assets/image/MESH-08/MESH-08_desc1.webp);
+}
+.image-item:nth-child(2) {
+    background-image: url(../../../assets/image/MESH-08/MESH-08_desc2.webp);
+}
+.image-item:nth-child(3) {
+    background-image: url(../../../assets/image/MESH-08/MESH-08_desc3.webp);
+}
+.image-item:nth-child(4) {
+    background-image: url(../../../assets/image/MESH-08/MESH-08_desc4.webp);
+}
+.image-item:nth-child(5) {
+    background-image: url(../../../assets/image/MESH-08/MESH-08_desc5.webp);
+}
+
+
+

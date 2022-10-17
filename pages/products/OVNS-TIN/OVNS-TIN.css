@@ -1,0 +1,25 @@
+.image-item {
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.image-item:first-child {
+    background-image: url(../../../assets/image/OVNS-TIN/OVNS-TIN7.webp);
+}
+.image-item:nth-child(2) {
+    background-image: url(../../../assets/image/OVNS-TIN/OVNS-TIN8.webp);
+}
+.image-item:nth-child(3) {
+    background-image: url(../../../assets/image/OVNS-TIN/OVNS-TIN3.webp);
+}
+.image-item:nth-child(4) {
+    background-image: url(../../../assets/image/OVNS-TIN/OVNS-TIN4.webp);
+}
+.image-item:nth-child(5) {
+    background-image: url(../../../assets/image/OVNS-TIN/OVNS-TIN5.webp);
+}
+.image-item:nth-child(6) {
+    background-image: url(../../../assets/image/OVNS-TIN/OVNS-TIN6.webp);
+}

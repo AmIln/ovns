@@ -1,0 +1,19 @@
+.image-item {
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image-item:first-child {
+    background-image: url(../../../assets/image/OVNS-MAX/OVNS-MAX_13.webp);
+}
+.image-item:nth-child(2) {
+    background-image: url(../../../assets/image/OVNS-MAX/OVNS-MAX_11.webp);
+}
+.image-item:nth-child(3) {
+    background-image: url(../../../assets/image/OVNS-MAX/OVNS-MAX_12.webp);
+}
+.image-item:nth-child(4) {
+    background-image: url(../../../assets/image/OVNS-MAX/OVNS-MAX2.webp);
+}
+
