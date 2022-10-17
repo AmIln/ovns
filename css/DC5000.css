@@ -1,0 +1,25 @@
+.image-item {
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-item:first-child {
+    background-image: url(../assets/image/OVNS-DC5000/OVNS-DC5000_1.webp);
+}
+.image-item:nth-child(2) {
+    background-image: url(../assets/image/OVNS-DC5000/OVNS-DC5000_2.webp);
+}
+.image-item:nth-child(3) {
+    background-image: url(../assets/image/OVNS-DC5000/OVNS-DC5000_3.webp);
+}
+.image-item:nth-child(4) {
+    background-image: url(../assets/image/OVNS-DC5000/OVNS-DC5000_4.webp);
+}
+.image-item:nth-child(5) {
+    background-image: url(../assets/image/OVNS-DC5000/OVNS-DC5000_5.webp);
+}
+.image-item:nth-child(6) {
+    background-image: url(../assets/image/OVNS-DC5000/OVNS-DC5000_6.webp);
+}

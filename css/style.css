@@ -90,6 +90,25 @@ select {
   font: inherit;
 }
 
+.banner_image1 {
+  background-image: url(../../assets/image/OVNS-XL/OVNS-XL_14.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner_image2 {
+  background-image: url(../../assets/image/banner2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.banner_image3 {
+  background-image: url(../../assets/image/banner3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* HEADER */
 header {
   width: 100%;
