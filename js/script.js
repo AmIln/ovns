@@ -1,11 +1,8 @@
-console.log('my JS')
 const sellingList = document.querySelector('.selling-choiseList'),
 promoItems = document.querySelectorAll('.selling-item'),
 sellingWraper = document.querySelector('.selling-wrapper'),
 productList = document.querySelector('.products-list'),
 productCataloge = document.querySelectorAll('.products-catalog');
-
-console.log(document.html.childNodes())
 
 /* СМЕНА ПРОМО ВИДЕО */
 sellingList.addEventListener('click', function(e) {
