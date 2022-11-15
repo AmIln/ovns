@@ -1,0 +1,49 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.main-title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.main-description {
+    margin: 20px 0 50px 0;
+    text-align: center;
+}
+
+.description-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.description-item {
+    display: flex;
+    gap: 10px;
+}
+
+.information {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reply {
+    display: flex;
+    gap: 10px;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.viber {
+    color: #7360f2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
