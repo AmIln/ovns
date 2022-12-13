@@ -1,3 +1,6 @@
+/*a {
+    text-decoration: none;
+}*/
 main {
     display: flex;
     flex-direction: column;
@@ -57,6 +60,37 @@ main {
     height: 30px;
 }
 
-a:hover {
+.reply > a:hover {
     text-decoration: underline;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.feedback-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-item {
+    width: 100%;
+}
+.form-item > input{
+    width: 100%;
+}
+.form-item > textarea{
+    max-height: 200px;
 }
