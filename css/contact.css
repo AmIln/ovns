@@ -70,11 +70,18 @@ main {
     justify-content: center;
     align-items: center;
     margin: 50px 0;
+    background-image: url(../assets/image/background-footer.webp);
+    background-position: center;
+    border-radius: 10%;
+    min-width: 400px;
+    min-height: 500px;
 }
 
 .feedback-title {
     font-size: 30px;
     margin-bottom: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 .feedback-form {
@@ -87,10 +94,29 @@ main {
 
 .form-item {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .form-item > input{
     width: 100%;
+    padding-left: 10px;
+    outline: none;
 }
 .form-item > textarea{
     max-height: 200px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.form-item > input[type="submit"]{
+    max-width: 50%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.form-item > input[type="submit"]:hover {
+    box-shadow: 0 0 10px #ffffff;
 }
