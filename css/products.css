@@ -54,7 +54,8 @@ main {
 }
 
 .product-link_name {
-    font-size: 22px;
+    /*font-size: 22px;*/
+    font-size: 1.4rem;
     position: absolute;
     bottom: -10%;
     color: #5c6073;

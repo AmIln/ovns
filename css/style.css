@@ -23,6 +23,9 @@
   src: url(.././assets/fonts/Rubik/static/Rubik-Regular.ttf);
 }
 
+html {
+  font-size: 16px;
+}
 
 *,
 *::before,
@@ -146,7 +149,8 @@ header {
 .menu-link {
   letter-spacing: 0;
   font-family: 'Rubik';
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1rem;
   color: #222;
   font-weight: 400;
   padding-bottom: 5px;
@@ -225,7 +229,8 @@ main {
 
 .head {
   font-family: 'Rubik';
-  font-size: 60px;
+  /*font-size: 60px;*/
+  font-size: 4rem;
   color: #000;
   font-weight: 400;
 }
@@ -237,7 +242,8 @@ main {
 
 ol.products-item {
   font-family: 'Rubik';
-  font-size: 18px;
+  /*font-size: 18px;*/
+  font-size: 1.2rem;
   cursor: pointer;
   padding-bottom: 10px;
 }
@@ -266,7 +272,8 @@ ol.products-item {
   align-items: center;
   justify-content: center;
   font-family: 'Rubik';
-  font-size: 60px;
+  /*font-size: 60px;*/
+  font-size: 4rem;
   font-weight: 400;
   color: #000;
   z-index: 200;
@@ -402,7 +409,8 @@ ol.products-item {
 
 .advantages-head {
   font-family: 'Rubik';
-  font-size: 60px;
+  /*font-size: 60px;*/
+  font-size: 4rem;
   font-weight: 400;
 }
 .advantages-head_white {
@@ -436,13 +444,15 @@ ol.products-item {
 
 .description-head {
   font-family: 'Rubik';
-  font-size: 28px;
+  /*font-size: 28px;*/
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
 .advantages-text {
   font-family: 'Rubik';
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 0.9rem;
   word-break: break-word;
 }
 
@@ -452,6 +462,7 @@ ol.products-item {
   justify-content: center;
   align-items: center;
 }
+
 .selling-content {
   width: 80%;
   position: relative;
@@ -460,13 +471,11 @@ ol.products-item {
   align-items: center;
   gap: 70px;
   padding: 40px 0;
-  
 }
+
 .selling-window {
   max-height: 500px;
   overflow: hidden;
-  /*margin: 0 70px;
-  margin-top: 35px;*/
 }
 
 .selling-wrapper {
@@ -475,20 +484,13 @@ ol.products-item {
   left: 0;
   display: flex;
   transition: all 2s ease;
-  /*gap: 5px;*/
 }
 
-/*.selling-promo {
-  
-}*/
 .selling-promo {
   display: flex;
   min-width: 100%;
   min-height: 100%;
 }
-/*.selling-promo_active {
-  display: flex;
-}*/
 
 .selling-about {
   min-width: 50%;
@@ -498,14 +500,16 @@ ol.products-item {
 }
 .sellng-header {
   font-family: 'Rubik';
-  font-size: 43px;
+  /*font-size: 43px;*/
+  font-size: 2.7rem;
   color: #000;
   letter-spacing: 0;
   text-align: left;
 }
 .selling-text {
   font-family: 'Rubik';
-  font-size: 16px;
+  /*font-size: 16px;*/
+  font-size: 1rem;
   padding-top: 11px;
   color: #000;
   letter-spacing: 0;
@@ -583,31 +587,38 @@ footer {
   flex-direction: column;
   
 }
+
 ul.footer-list {
   list-style-type: disc;
   list-style-position: inside;
 }
+
 .footer-header {
   font-family: 'Rubik';
-  font-size: 20px;
+  /*font-size: 20px;*/
+  font-size: 1.3rem;
   color: #fff;
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 1.2em;
+  line-height: 1.3em;
   text-align: left;
 }
+
 .footer-item {
   color: gray;
 }
+
 .footer-link {
   font-family: 'Rubik';
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 0.9rem;
   color: rgba(255,255,255,0.75);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 2.6em;
   text-align: left;
 }
+
 .footer-link:hover {
   color: #FFF;
 }
@@ -615,57 +626,9 @@ ul.footer-list {
   color: #FFF;
 }
 
-
-
 .carousel-item {
   transition: all 1s ease;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (prefers-reduced-motion: reduce) {

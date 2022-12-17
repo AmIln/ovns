@@ -19,11 +19,11 @@ main {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 5rem;
     color: #000000;
 }
 h2 {
-    font-size: 4em;
+    font-size: 4rem;
     color: #000000;
 }
 ul.certificates-list {
@@ -31,13 +31,13 @@ ul.certificates-list {
     text-align: start;
 }
 ul.certificates-list>li {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: gray;
     list-style-type: '\2714';
     padding: 10px 0;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: gray;
 }
 
