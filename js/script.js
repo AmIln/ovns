@@ -2,7 +2,9 @@ const sellingList = document.querySelector('.selling-choiseList'),
 promoItems = document.querySelectorAll('.selling-item'),
 sellingWraper = document.querySelector('.selling-wrapper'),
 productList = document.querySelector('.products-list'),
-productCataloge = document.querySelectorAll('.products-catalog');
+productCataloge = document.querySelectorAll('.products-catalog'),
+burgerIcon = document.querySelector('.menu-mobile'),
+burgerMenu = document.querySelector('.menu-burger');
 
 /* СМЕНА ПРОМО ВИДЕО */
 sellingList.addEventListener('click', function(e) {
@@ -53,4 +55,10 @@ productList.addEventListener('click', function(e) {
         }
         e.target.classList.add('products-item_active')
     }
+})
+
+/* БУРГЕР */
+burgerIcon.addEventListener('click', function() {
+    burgerIcon.classList.toggle('menu-mobile_active');
+    burgerMenu.classList.toggle('menu-burger_active');
 })
