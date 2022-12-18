@@ -59,6 +59,7 @@ dd {
 
 body {
   min-height: 100vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,6 +240,7 @@ main {
   font-size: 4rem;
   color: #000;
   font-weight: 400;
+  text-align: center;
 }
 
 .products-list {
@@ -526,7 +528,8 @@ ol.products-item {
 
 .sellind-video {
   min-width: 50%;
-  height: 500px;
+  max-width: 100vw;
+  /*height: 500px;*/
   background-color: aquamarine;
 }
 .sellind-video>video {
@@ -684,6 +687,9 @@ ul.footer-list {
 
 /* TABLET */
 @media (max-width: 900px) {
+  .menu-list {
+    gap: 10px;
+  }
   .menu-link {
     font-size: 0.9rem;
   }
@@ -714,7 +720,6 @@ ul.footer-list {
   }
   .menu-mobile_active {
     background-image: url(../assets/icon/burger-menu_close.svg);
-    /*position: relative;*/
   }
   .menu-burger {
     display: none;
@@ -726,23 +731,16 @@ ul.footer-list {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    /*width: 100%;*/
     width: 100vw;
-    /*height: 400px;*/
     height: calc(100vw / 2);
+    /*height: 100vh;*/
     padding: 0 40px;
-    /*right: -32px;*/
-    /*right: calc((100vw * 0,02) * 1);*/
-    /*right: calc(100vw * 0,02px);*/
     right: calc(100vw - 100vw - (100vw * 0.02));
     top: 61px;
     z-index: 999;
     background-color: #ffffff;
   }
-  /*.menu-item {
-    margin-left: auto;
-    margin-right: 50px;
-  }*/
+
   .menu-link {
     font-size: 1.5rem;
   }
@@ -752,5 +750,204 @@ ul.footer-list {
 
   ul.selling-choiseList {
     gap: 15px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-container {
+    padding: 10px 5%;
+  }
+
+  .menu-burger_active {
+    right: calc(100vw - 100vw - (100vw * 0.05));
+    top: 56px;
+  }
+
+  .background-wrapper {
+    gap: 50px;
+  }
+
+  .advantages-container {
+    flex-direction: column;
+  }
+
+  .advantages-content_left {
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    top: 0;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .advantages-content_right {
+    width: 100%;
+    background-color: transparent;
+  }
+
+  .number-image {
+    padding-bottom: 5px;
+  }
+
+  .description-head {
+    font-weight: bold;
+  }
+
+  .advantages-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .selling-content {
+    width: 100%;
+  }
+
+  .selling-window {
+    max-height: max-content;
+    max-width: 100%;
+  }
+  .selling-promo {
+    flex-direction: column;
+  }
+
+  .selling-wrapper {
+    height: fit-content;
+  }
+
+  .selling-promo {
+    justify-content: space-between;
+  }
+
+  .selling-about {
+    padding: 0 1%;
+  }
+  ul.selling-choiseList {
+    gap: 10px;
+    padding: 0 1%;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .products-list {
+    gap: 20px;
+  }
+  .products-catalog {
+    height: 500px;
+  }
+  .footer-container {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0;
+    padding: 20px 2%;
+  }
+}
+
+@media (max-width: 650px) {
+  .menu-link {
+    font-size: 1.2rem;
+  }
+  .products-item {
+    text-align: center;
+  }
+  .selling-item {
+    height: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-link {
+    font-size: 1rem;
+  }
+  .menu-burger_active {
+    gap: 10px;
+  }
+  .products-container {
+    width: 100%;
+    padding: 0 1%;
+  }
+  .products-list {
+    gap: 0;
+  }
+  .products-catalog {
+    min-height: 500px;
+    height: fit-content;
+  }
+  .products-goods {
+    width: 100%;
+    height: 100vw;
+  }
+
+  .advantages-content_right {
+    padding: 30px 1%;
+  }
+  .advantages-item {
+    align-items: center;
+    /*text-align: center;*/
+  }
+  
+  .selling-content {
+    gap: 20px;
+  }
+  .selling-item {
+    height: 100px;
+  }
+
+  .footer-container {
+    padding: 20px 10%;
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel-control_circle {
+    width: 25px;
+    height: 25px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 10px;
+    height: 10px;
+  }
+  .background-wrapper {
+    padding: 20px 0;
+  }
+  .selling-window {
+    order: 3;
+  }
+  ul.selling-choiseList {
+    order: 2;
+  }
+  .products-head {
+    order: 1;
+  }
+  .products-list {
+    order: 2;
+  }
+  .products-catalog {
+    order: 3;
+  }
+  .button-viewMore {
+    order: 4;
+  }
+  .selling-content {
+    padding: 20px 0;
+  }
+  .selling-item {
+    height: 80px;
+  }
+  .selling-promo {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+  .selling-item_active::after {
+    transform: rotate(180deg);
+    top: 109%;
+    right: 39%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 14px;
   }
 }
