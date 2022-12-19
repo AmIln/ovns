@@ -3,10 +3,12 @@ promoItems = document.querySelectorAll('.selling-item'),
 sellingWraper = document.querySelector('.selling-wrapper'),
 productList = document.querySelector('.products-list'),
 productCataloge = document.querySelectorAll('.products-catalog'),
-burgerIcon = document.querySelector('.menu-mobile'),
+burgerIcon = document.querySelector('.menu-mobileButton'),
 burgerMenu = document.querySelector('.menu-burger'),
 warningText = document.querySelector('.warning'),
-headerContainer = document.querySelector('.header-container');
+headerContainer = document.querySelector('.header-container'),
+header = document.querySelector('.header'),
+menuMobile = document.querySelector('.menu-mobile');
 
 /* СМЕНА ПРОМО ВИДЕО */
 sellingList.addEventListener('click', function(e) {
@@ -61,8 +63,10 @@ productList.addEventListener('click', function(e) {
 
 /* БУРГЕР */
 burgerIcon.addEventListener('click', function() {
-    burgerIcon.classList.toggle('menu-mobile_active');
+    burgerIcon.classList.toggle('menu-mobileButton_active');
     burgerMenu.classList.toggle('menu-burger_active');
     warningText.classList.toggle('warning_fixed');
     headerContainer.classList.toggle('header-container_fixed');
+    header.classList.toggle('header_fixed');
+    menuMobile.classList.toggle('menu-mobile_active');
 })
