@@ -4,7 +4,9 @@ sellingWraper = document.querySelector('.selling-wrapper'),
 productList = document.querySelector('.products-list'),
 productCataloge = document.querySelectorAll('.products-catalog'),
 burgerIcon = document.querySelector('.menu-mobile'),
-burgerMenu = document.querySelector('.menu-burger');
+burgerMenu = document.querySelector('.menu-burger'),
+warningText = document.querySelector('.warning'),
+headerContainer = document.querySelector('.header-container');
 
 /* СМЕНА ПРОМО ВИДЕО */
 sellingList.addEventListener('click', function(e) {
@@ -61,4 +63,6 @@ productList.addEventListener('click', function(e) {
 burgerIcon.addEventListener('click', function() {
     burgerIcon.classList.toggle('menu-mobile_active');
     burgerMenu.classList.toggle('menu-burger_active');
+    warningText.classList.toggle('warning_fixed');
+    headerContainer.classList.toggle('header-container_fixed');
 })

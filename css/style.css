@@ -725,19 +725,30 @@ ul.footer-list {
     display: none;
   }
   .menu-burger_active {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     width: 100vw;
-    height: calc(100vw / 2);
-    /*height: 100vh;*/
-    padding: 0 40px;
-    right: calc(100vw - 100vw - (100vw * 0.02));
-    top: 61px;
+    height: 100vh;
+    /*right: calc(100vw - 100vw - (100vw * 0.02));
+    top: 61px;*/
+    left: 0;
+    top: 139px;
     z-index: 999;
+    background-color: #ffffff;
+  }
+  .warning_fixed {
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+  }
+  .header-container_fixed {
+    position: fixed;
+    z-index: 999;
+    top: 49px;
     background-color: #ffffff;
   }
 
