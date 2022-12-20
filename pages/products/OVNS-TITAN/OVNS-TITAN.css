@@ -1,10 +1,3 @@
-.image-item {
-    min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .image-item:first-child {
     background-image: url(../../../assets/image/OVNS-TITAN/OVNS-TITAN_11.webp);
 }

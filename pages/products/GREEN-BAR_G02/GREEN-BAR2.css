@@ -1,9 +1,3 @@
-.image-item {
-    min-width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 .image-item:first-child {
     background-image: url(../../../assets/image/GREEN-BAR_G02/green-bar_G02_desc1.webp);
 }
@@ -28,6 +22,3 @@
 .image-item:nth-child(8) {
     background-image: url(../../../assets/image/GREEN-BAR_G02/green-bar_G02_desc8.webp);
 }
-
-
-
