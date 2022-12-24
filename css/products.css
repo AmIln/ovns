@@ -262,6 +262,10 @@ ul.flavour {
     .products-content {
         gap: 30px 1%;
     }
+    .images-switch>img {
+        width: 60px;
+        height: 60px;
+    }
 }
 @media (max-width: 500px) {
     .product-content {

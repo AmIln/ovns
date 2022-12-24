@@ -11,6 +11,10 @@ imageList.addEventListener('click', function(e) {
         position = Number(alt[alt.length-1]) - 1;
     }
     if (position != 0) {
+        if (position === -1 ) {
+            let left = '-900%';
+            document.querySelector('.images-wrapper').style.left = left;
+        }
         let left = '-' + position + '00%';
         document.querySelector('.images-wrapper').style.left = left;
     } else {
