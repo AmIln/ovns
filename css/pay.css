@@ -70,3 +70,38 @@ main {
     background-color: #000000;
     border-radius: 10%;
 }
+
+
+/* TABLET */
+@media (max-width: 950px) {
+    .content {
+        max-width: 80%;
+    }
+    .content-text {
+        word-break: break-word;
+        text-align: justify;
+    }
+    .content-pay {
+        text-align: center;
+    }
+    .content-choise {
+        justify-content: space-between;
+    }
+    .choise {
+        max-width: 45%;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .content {
+        padding: 15px 0;
+    }
+    .content-choise {
+        max-width: 90%;
+        gap: 0;
+    }
+    .content-text {
+        max-width: 90%;
+    }
+}
