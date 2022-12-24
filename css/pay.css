@@ -95,6 +95,7 @@ main {
 /* MOBILE */
 @media (max-width: 600px) {
     .content {
+        max-width: 95%;
         padding: 15px 0;
     }
     .content-choise {
