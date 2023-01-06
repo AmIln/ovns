@@ -84,7 +84,8 @@ ol[class] {
 
 a {
   text-decoration: none;
-  text-decoration-skip-ink: auto;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
 }
 
 img {
@@ -530,7 +531,8 @@ ol.products-item {
 .sellind-video>video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 ul.selling-choiseList {
@@ -634,8 +636,10 @@ ul.footer-list {
 
 @media (prefers-reduced-motion: reduce) {
   * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
+    -webkit-animation-duration: 0.01ms !important;
+            animation-duration: 0.01ms !important;
+    -webkit-animation-iteration-count: 1 !important;
+            animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
@@ -780,6 +784,8 @@ ul.footer-list {
     width: 100%;
   }
   .selling-window {
+    max-height: -webkit-max-content;
+    max-height: -moz-max-content;
     max-height: max-content;
     max-width: 100%;
   }
@@ -787,6 +793,8 @@ ul.footer-list {
     flex-direction: column;
   }
   .selling-wrapper {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
   }
   .selling-promo {
@@ -839,6 +847,8 @@ ul.footer-list {
   }
   .products-catalog {
     min-height: 500px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
   }
   .products-goods {
