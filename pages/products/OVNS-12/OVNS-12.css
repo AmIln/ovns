@@ -1,18 +1,18 @@
 .image-item:first-child {
-    background-image: url(../../../assets/image/OVNS-12/OVNS-12.png);
+  background-image: url(../../../assets/image/OVNS-12/OVNS-12.webp);
 }
 .image-item:nth-child(2) {
-    background-image: url(../../../assets/image/OVNS-12/OVNS-12_2.webp);
+  background-image: url(../../../assets/image/OVNS-12/OVNS-12_2.webp);
 }
 .image-item:nth-child(3) {
-    background-image: url(../../../assets/image/OVNS-12/OVNS-12_3.webp);
+  background-image: url(../../../assets/image/OVNS-12/OVNS-12_3.webp);
 }
 .image-item:nth-child(4) {
-    background-image: url(../../../assets/image/OVNS-12/OVNS-12_4.webp);
+  background-image: url(../../../assets/image/OVNS-12/OVNS-12_4.webp);
 }
 .image-item:nth-child(5) {
-    background-image: url(../../../assets/image/OVNS-12/OVNS-12_5.webp);
+  background-image: url(../../../assets/image/OVNS-12/OVNS-12_5.webp);
 }
 .image-item:nth-child(6) {
-    background-image: url(../../../assets/image/OVNS-12/OVNS-12_6.webp);
+  background-image: url(../../../assets/image/OVNS-12/OVNS-12_6.webp);
 }
