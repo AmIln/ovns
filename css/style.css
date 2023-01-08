@@ -1,23 +1,23 @@
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   src: url(.././assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
-  font-family: 'Poppins-Light';
+  font-family: "Poppins-Light";
   font-style: normal;
   font-weight: 400;
   src: url(.././assets/fonts/Poppins/Poppins-Light.ttf);
 }
 @font-face {
-  font-family: 'Russo One';
+  font-family: "Russo One";
   font-style: normal;
   font-weight: 400;
   src: url(.././assets/fonts/Russo_One/RussoOne-Regular.ttf);
 }
 @font-face {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   src: url(.././assets/fonts/Rubik/static/Rubik-Regular.ttf);
@@ -55,7 +55,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
-  font-family: 'Rubik';
+  font-family: "Rubik";
 }
 
 h1,
@@ -85,7 +85,7 @@ ol[class] {
 a {
   text-decoration: none;
   -webkit-text-decoration-skip: ink;
-          text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
 }
 
 img {
@@ -129,7 +129,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-} 
+}
 
 .warning {
   width: 100%;
@@ -168,7 +168,7 @@ header {
 
 .menu-link {
   letter-spacing: 0;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 1rem;
   color: #222;
   font-weight: 400;
@@ -182,7 +182,6 @@ header {
   border-bottom: 2px solid #000;
 }
 
-
 .carousel-inner {
   height: 700px;
 }
@@ -194,8 +193,6 @@ header {
 .carousel-item > img {
   height: 100%;
 }
-
-
 
 /* MAIN */
 main {
@@ -245,7 +242,7 @@ main {
 }
 
 .head {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 4rem;
   color: #000;
   font-weight: 400;
@@ -258,8 +255,8 @@ main {
   word-break: break-word;
 }
 
-ol.products-item {
-  font-family: 'Rubik';
+.products-item {
+  font-family: "Rubik";
   font-size: 1.2rem;
   cursor: pointer;
   padding-bottom: 10px;
@@ -288,7 +285,7 @@ ol.products-item {
   display: none;
   align-items: center;
   justify-content: center;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 4rem;
   font-weight: 400;
   color: #000;
@@ -308,10 +305,10 @@ ol.products-item {
 }
 .products-goods:hover::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   opacity: 0.7;
   transition: all 1s ease;
 }
@@ -341,47 +338,46 @@ ol.products-item {
 }
 #VOPODO-RO04 {
   background-image: url(.././assets/image/VIPODO-R04/vipodo_R04_1.png);
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.button {
+.linkButton {
   width: 200px;
   height: 67px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: none;
-  border: 1px solid inherit;
+  border: 1px solid #000000;
   border-style: solid;
   border-width: 1px;
   cursor: pointer;
   transition: 0.3s linear;
+  color: #000000;
 }
-.button-viewMore>a {
+/*.button-viewMore {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #000;
-}
-.button-viewMore:hover{
+}*/
+.linkButton:hover {
   background: #000;
-  color: #FFF;
+  color: #fff;
 }
-.button-viewMore:hover>a{
-  color: #FFF;
-}
-.button-viewMore_white {
+/*.button-viewMore:hover {
+  color: #fff;
+}*/
+.linkButton_white {
   border-color: #fff;
 }
-.button-viewMore_white>a {
-  color: #FFF;
+.linkButton_white {
+  color: #fff;
 }
-.button-viewMore_white:hover {
-  background-color: #FFF;
-}
-.button-viewMore_white:hover>a {
+.linkButton_white:hover {
+  background-color: #fff;
   color: #000;
 }
 
@@ -420,7 +416,7 @@ ol.products-item {
 }
 
 .advantages-head {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 4rem;
   font-weight: 400;
 }
@@ -435,7 +431,7 @@ ol.products-item {
   display: flex;
   flex-direction: column;
   gap: 21px;
-  background-color: #FFF;
+  background-color: #fff;
   z-index: 100;
   padding: 40px 20px;
   margin-right: 6%;
@@ -452,13 +448,13 @@ ol.products-item {
 }
 
 .description-head {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 1.8rem;
   font-weight: 400;
 }
 
 .advantages-text {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 0.9rem;
   word-break: break-all;
 }
@@ -506,14 +502,14 @@ ol.products-item {
   padding-right: 4%;
 }
 .sellng-header {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 2.7rem;
   color: #000;
   letter-spacing: 0;
   text-align: left;
 }
 .selling-text {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 1rem;
   padding-top: 11px;
   color: #000;
@@ -528,14 +524,14 @@ ol.products-item {
   max-width: 100vw;
   background-color: aquamarine;
 }
-.sellind-video>video {
+.sellind-video > video {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
-ul.selling-choiseList {
+.selling-choiseList {
   display: flex;
   max-width: 100%;
   gap: 40px;
@@ -546,7 +542,7 @@ ul.selling-choiseList {
   height: 150px;
   border-style: groove;
 }
-.selling-item>img {
+.selling-item > img {
   width: 100%;
   height: 100%;
 }
@@ -559,7 +555,7 @@ ul.selling-choiseList {
   border-width: 2px 2px 2px 2px;
 }
 .selling-item_active::after {
-  content: '\25B2';
+  content: "\25B2";
   position: absolute;
   top: -19px;
   right: 47%;
@@ -590,7 +586,6 @@ footer {
 .footer-block {
   display: flex;
   flex-direction: column;
-  
 }
 
 ul.footer-list {
@@ -599,7 +594,7 @@ ul.footer-list {
 }
 
 .footer-header {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 1.3rem;
   color: #fff;
   font-weight: 700;
@@ -613,9 +608,9 @@ ul.footer-list {
 }
 
 .footer-link {
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.75);
+  color: rgba(255, 255, 255, 0.75);
   font-weight: 400;
   letter-spacing: 0;
   line-height: 2.6em;
@@ -623,28 +618,26 @@ ul.footer-list {
 }
 
 .footer-link:hover {
-  color: #FFF;
+  color: #fff;
 }
 .footer-link_active {
-  color: #FFF;
+  color: #fff;
 }
 
 .carousel-item {
   transition: all 1s ease;
 }
 
-
 @media (prefers-reduced-motion: reduce) {
   * {
     -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
     -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
-
 
 /* SMALL DESCTOP */
 @media (max-width: 1100px) {
@@ -739,7 +732,7 @@ ul.footer-list {
   .menu-link_active {
     font-weight: bold;
   }
-  ul.selling-choiseList {
+  .selling-choiseList {
     gap: 15px;
   }
 }
@@ -803,11 +796,10 @@ ul.footer-list {
   .selling-about {
     padding: 0 1%;
   }
-  ul.selling-choiseList {
+  .selling-choiseList {
     gap: 10px;
     padding: 0 1%;
   }
-
 }
 
 @media (max-width: 700px) {
@@ -877,7 +869,8 @@ ul.footer-list {
     width: 25px;
     height: 25px;
   }
-  .carousel-control-next-icon, .carousel-control-prev-icon {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
     width: 10px;
     height: 10px;
   }
@@ -887,7 +880,7 @@ ul.footer-list {
   .selling-window {
     order: 3;
   }
-  ul.selling-choiseList {
+  .selling-choiseList {
     order: 2;
   }
   .products-head {
@@ -899,7 +892,7 @@ ul.footer-list {
   .products-catalog {
     order: 3;
   }
-  .button-viewMore {
+  .linkButton {
     order: 4;
   }
   .selling-content {
