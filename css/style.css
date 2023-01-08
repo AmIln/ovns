@@ -313,31 +313,31 @@ main {
   transition: all 1s ease;
 }
 #OVNS-TIN {
-  background-image: url(.././assets/image/OVNS-TIN/OVNS-TIN.png);
+  background-image: url(.././assets/image/OVNS-TIN/OVNS-TIN.webp);
 }
 #OVNS-12 {
-  background-image: url(.././assets/image/OVNS-12/OVNS-12.png);
+  background-image: url(.././assets/image/OVNS-12/OVNS-12.webp);
 }
 #OVNS-15 {
-  background-image: url(.././assets/image/OVNS-15/OVNS-15.png);
+  background-image: url(.././assets/image/OVNS-15/OVNS-15.webp);
 }
 #OVNS-L {
-  background-image: url(.././assets/image/OVNS-L/OVNS-L.png);
+  background-image: url(.././assets/image/OVNS-L/OVNS-L.webp);
 }
 #OVNS-MAX {
-  background-image: url(.././assets/image/OVNS-MAX/OVNS-MAX.png);
+  background-image: url(.././assets/image/OVNS-MAX/OVNS-MAX.webp);
 }
 #OVNS-MEGA {
-  background-image: url(.././assets/image/OVNS-MEGA/OVNS-MEGA.png);
+  background-image: url(.././assets/image/OVNS-MEGA/OVNS-MEGA.webp);
 }
 #GREEN-BAR1 {
-  background-image: url(.././assets/image/GREEN-BAR_G01/green-bar_G01.png);
+  background-image: url(.././assets/image/GREEN-BAR_G01/green-bar_G01.webp);
 }
 #GREEN-BAR2 {
-  background-image: url(.././assets/image/GREEN-BAR_G02/green-bar_G02.png);
+  background-image: url(.././assets/image/GREEN-BAR_G02/green-bar_G02.webp);
 }
 #VOPODO-RO04 {
-  background-image: url(.././assets/image/VIPODO-R04/vipodo_R04_1.png);
+  background-image: url(.././assets/image/VIPODO-R04/vipodo_R04_1.webp);
   background-color: #fff;
 }
 
@@ -407,7 +407,7 @@ main {
   justify-content: start;
   align-items: center;
   gap: 50px;
-  background-image: url(.././assets/image/background-gradient2.png);
+  background-image: url(.././assets/image/background-gradient2.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
